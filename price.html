@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+            crossorigin="anonymous">
+    <title>Цени | Салон за красота</title>
+</head>
+<body>
+        <br>
+        <br>
+    
+        <div class="container" id="header">
+            <div class="row">
+                <div class="col-3">
+                    <p>SJ Nails & Beauty</p>
+                </div>
+                <div class="col-4">
+    
+                </div>
+                <div class="col-5">
+                    <ul class="nav nav-pills" id="menu">
+                        <button type="button" class="btn btn-light menu-buttons" >НАЧАЛО</button>
+    
+                            <button class="btn btn-light dropdown-toggle menu-buttons" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                УСЛУГИ
+                            </button>
+                            <span class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Фризьорски услуги</a>
+                                <a class="dropdown-item" href="#">Маникюр и педикюр</a>
+                                <a class="dropdown-item" href="#">Грим</a>
+                                <a class="dropdown-item" href="#">Подаръчни ваучери</a>
+                            </span>
+                     
+                        <button type="button" class="btn btn-light menu-buttons">ЦЕНИ</button>
+                        <button type="button" class="btn btn-light menu-buttons">КОНТАКТИ</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h2 id="price">ЦЕНОРАЗПИС</h2>
+        <div class="container" id="main-menu">
+                <div class="row">
+                    <div class="col-7">
+        <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Фризьорски услуги
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                            <table width="798">
+                                    <tbody>
+                                    <tr>
+                                    <th width="289">ПОДСТРИГВАНЕ</th>
+                                    <th width="509"></th>
+                                    </tr>
+                                    <tr>
+                                    <td>Дамско</td>
+                                    <td>16.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Мъжко</td>
+                                    <td>12.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Детско</td>
+                                    <td>8.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>ИЗСУШАВАНЕ С ЧЕТКА И СЕШОАР</td>
+                                    <td>19.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>ОФОРМЯНЕ С МАША И ПРЕСА</td>
+                                    <td>40.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>ОФИЦИАЛНА ПРИЧЕСКА</td>
+                                    <td>50.00 лв.</td>
+                                    </tr>
+                                                                 
+                                    <tr>
+                                    <th>БОЯДИСВАНЕ</th>
+                                    <th></th>
+                                    </tr>
+                                    <tr>
+                                    <td>БОЯДИСВАНЕ С БОЯ НА КЛИЕНТА</td>
+                                    <td>20.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>БОЯДИСВАНЕ С L&#8217;OREAL</td>
+                                    <td>55.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>БОЯДИСВАНЕ С ИНОА(INOA)</td>
+                                    <td>60.00 лв.</td>
+                                    </tr>
+                                                                 
+                                                                  
+                                      <tr>
+                                    <th>УДЪЛЖАВАНЕ НА КОСАТА</th>
+                                    <th></th>
+                                    </tr>
+                                    <tr>
+                                    <td>Коса 50-60 см.</td>
+                                    <td>200&nbsp;лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Поставяне</td>
+                                    <td>45&nbsp;лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Поддръжка</td>
+                                    <td>45&nbsp;лв.</td>
+                                                                       
+                                    </tbody>
+                                    </table>    
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Маникюр и педикюр 
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                            <table width="391">
+                                    <tbody>
+                                    <tr>
+                                    <th width="195">МАНИКЮР</th>
+                                    <th width="196"></th>
+                                    </tr>
+                                    <tr>
+                                    <td>Маникюр, лак</td>
+                                    <td>14.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Маникюр</td>
+                                    <td>11.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Лак</td>
+                                    <td>&nbsp; 8.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Френски маникюр</td>
+                                    <td>16.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Маникюр с декорация</td>
+                                    <td>18.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Ноктопластика</td>
+                                    <td>50.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Поддръжка</td>
+                                    <td>25.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Изграждане с гел</td>
+                                    <td>60.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Гел</td>
+                                    <td>30.00 лв.</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    <td>Ноктопластика с акрил</td>
+                                    <td>60.00 лв.</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    <td>Декоративен камък 1бр.</td>
+                                    <td>&nbsp; 0.50 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <th>ПЕДИКЮР</th>
+                                    <th></th>
+                                    </tr>
+                                    <tr>
+                                    <td>Педикюр с лак</td>
+                                    <td>25.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Педикюр</td>
+                                    <td>20.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Лак</td>
+                                    <td>&nbsp; 8.00 лв.</td>
+                                    </tr>
+                                    
+                                    </tbody>
+                                    </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Грим
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                            <table >
+                                    <tbody>
+                                    <tr>
+                                    <td width="76">Дневен</td>
+                                    <td width="90">30.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Вечерен</td>
+                                    <td>40.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Сценичен</td>
+                                    <td>60.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Мигли косъм по косъм</td>
+                                    <td>&nbsp;40.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Поддръжка на мигли косъм по косъм </td>
+                                    <td>&nbsp;20.00 лв.</td>
+                                    </tr>
+                                <tr>
+                                    <td>Поставяне на мигли 3D  </td>
+                                    <td>&nbsp;60.00 лв.</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Поддръжка на мигли 3D  </td>
+                                    <td>&nbsp;40.00 лв.</td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Обеци</td>
+                                    <td>10.00 лв.</td>
+                                    </tr>
+                                    </tbody>
+                                    </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>

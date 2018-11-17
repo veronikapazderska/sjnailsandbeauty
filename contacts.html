@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <title>Контакти | Салон за красота</title>
+</head>
+
+<body>
+    <br>
+    <br>
+
+    <div class="container" id="header">
+        <div class="row">
+            <div class="col-3">
+                <p>SJ Nails & Beauty</p>
+            </div>
+            <div class="col-4">
+
+            </div>
+            <div class="col-5">
+                <ul class="nav nav-pills" id="menu">
+                    <button type="button" class="btn btn-light menu-buttons">НАЧАЛО</button>
+
+                    <button class="btn btn-light dropdown-toggle menu-buttons" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        УСЛУГИ
+                    </button>
+                    <span class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Фризьорски услуги</a>
+                        <a class="dropdown-item" href="#">Маникюр и педикюр</a>
+                        <a class="dropdown-item" href="#">Грим</a>
+                        <a class="dropdown-item" href="#">Подаръчни ваучери</a>
+                    </span>
+
+                    <button type="button" class="btn btn-light menu-buttons">ЦЕНИ</button>
+                    <button type="button" class="btn btn-light menu-buttons">КОНТАКТИ</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2 id="price">КОНТАКТИ</h2>
+    <div class="container" id="main-menu">
+        <div class="row">
+            <div class="col-5">
+                <form>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Вашето име:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Вашето име">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Вашият еmail: </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Вашият еmail">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Телефон:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Телефон">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextarea">Запитване:</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </div>
+                    <button class="btn btn-primary" id="send">Изпрати</button>
+                </form>
+            </div>
+            <div class="col-5" id="map">
+                <img src="photos/map.PNG" alt="Our location" id="map-pic">
+            </div>
+</body>
+
+</html>
